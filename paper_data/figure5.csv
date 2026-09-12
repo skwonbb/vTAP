@@ -1,0 +1,101 @@
+variant,probe_family,target,panel,measures,retention_pct
+vTAP,Linear,A,a,expression,107.0
+vTAP,Linear,A',b,held-out classes,72.0
+vTAP,Linear,B_1,c,gender,13.0
+vTAP,Linear,B_2,d,race,1.0
+vTAP,Linear,B_3,e,age,21.0
+vTAP,MLP,A,a,expression,105.0
+vTAP,MLP,A',b,held-out classes,70.0
+vTAP,MLP,B_1,c,gender,19.0
+vTAP,MLP,B_2,d,race,9.0
+vTAP,MLP,B_3,e,age,26.0
+vTAP,RFF,A,a,expression,105.0
+vTAP,RFF,A',b,held-out classes,71.0
+vTAP,RFF,B_1,c,gender,20.0
+vTAP,RFF,B_2,d,race,8.0
+vTAP,RFF,B_3,e,age,25.0
+vTAP,GBM,A,a,expression,117.0
+vTAP,GBM,A',b,held-out classes,75.0
+vTAP,GBM,B_1,c,gender,18.0
+vTAP,GBM,B_2,d,race,9.0
+vTAP,GBM,B_3,e,age,23.0
+vTAP,kNN,A,a,expression,143.0
+vTAP,kNN,A',b,held-out classes,64.0
+vTAP,kNN,B_1,c,gender,18.0
+vTAP,kNN,B_2,d,race,1.0
+vTAP,kNN,B_3,e,age,12.0
+vTAP w/o M,Linear,A,a,expression,106.0
+vTAP w/o M,Linear,A',b,held-out classes,72.0
+vTAP w/o M,Linear,B_1,c,gender,14.0
+vTAP w/o M,Linear,B_2,d,race,1.0
+vTAP w/o M,Linear,B_3,e,age,21.0
+vTAP w/o M,MLP,A,a,expression,106.0
+vTAP w/o M,MLP,A',b,held-out classes,72.0
+vTAP w/o M,MLP,B_1,c,gender,21.0
+vTAP w/o M,MLP,B_2,d,race,12.0
+vTAP w/o M,MLP,B_3,e,age,25.0
+vTAP w/o M,RFF,A,a,expression,104.0
+vTAP w/o M,RFF,A',b,held-out classes,71.0
+vTAP w/o M,RFF,B_1,c,gender,19.0
+vTAP w/o M,RFF,B_2,d,race,9.0
+vTAP w/o M,RFF,B_3,e,age,25.0
+vTAP w/o M,GBM,A,a,expression,117.0
+vTAP w/o M,GBM,A',b,held-out classes,74.0
+vTAP w/o M,GBM,B_1,c,gender,19.0
+vTAP w/o M,GBM,B_2,d,race,10.0
+vTAP w/o M,GBM,B_3,e,age,23.0
+vTAP w/o M,kNN,A,a,expression,143.0
+vTAP w/o M,kNN,A',b,held-out classes,60.0
+vTAP w/o M,kNN,B_1,c,gender,15.0
+vTAP w/o M,kNN,B_2,d,race,0.0
+vTAP w/o M,kNN,B_3,e,age,11.0
+"vTAP w/o M, alpha",Linear,A,a,expression,107.0
+"vTAP w/o M, alpha",Linear,A',b,held-out classes,64.0
+"vTAP w/o M, alpha",Linear,B_1,c,gender,15.0
+"vTAP w/o M, alpha",Linear,B_2,d,race,-0.0
+"vTAP w/o M, alpha",Linear,B_3,e,age,21.0
+"vTAP w/o M, alpha",MLP,A,a,expression,105.0
+"vTAP w/o M, alpha",MLP,A',b,held-out classes,65.0
+"vTAP w/o M, alpha",MLP,B_1,c,gender,22.0
+"vTAP w/o M, alpha",MLP,B_2,d,race,9.0
+"vTAP w/o M, alpha",MLP,B_3,e,age,22.0
+"vTAP w/o M, alpha",RFF,A,a,expression,104.0
+"vTAP w/o M, alpha",RFF,A',b,held-out classes,62.0
+"vTAP w/o M, alpha",RFF,B_1,c,gender,19.0
+"vTAP w/o M, alpha",RFF,B_2,d,race,9.0
+"vTAP w/o M, alpha",RFF,B_3,e,age,25.0
+"vTAP w/o M, alpha",GBM,A,a,expression,117.0
+"vTAP w/o M, alpha",GBM,A',b,held-out classes,73.0
+"vTAP w/o M, alpha",GBM,B_1,c,gender,17.0
+"vTAP w/o M, alpha",GBM,B_2,d,race,8.0
+"vTAP w/o M, alpha",GBM,B_3,e,age,23.0
+"vTAP w/o M, alpha",kNN,A,a,expression,142.0
+"vTAP w/o M, alpha",kNN,A',b,held-out classes,52.0
+"vTAP w/o M, alpha",kNN,B_1,c,gender,16.0
+"vTAP w/o M, alpha",kNN,B_2,d,race,1.0
+"vTAP w/o M, alpha",kNN,B_3,e,age,12.0
+"vTAP w/o M, alpha, S_W",Linear,A,a,expression,85.0
+"vTAP w/o M, alpha, S_W",Linear,A',b,held-out classes,63.0
+"vTAP w/o M, alpha, S_W",Linear,B_1,c,gender,69.0
+"vTAP w/o M, alpha, S_W",Linear,B_2,d,race,13.0
+"vTAP w/o M, alpha, S_W",Linear,B_3,e,age,53.0
+"vTAP w/o M, alpha, S_W",MLP,A,a,expression,83.0
+"vTAP w/o M, alpha, S_W",MLP,A',b,held-out classes,63.0
+"vTAP w/o M, alpha, S_W",MLP,B_1,c,gender,73.0
+"vTAP w/o M, alpha, S_W",MLP,B_2,d,race,22.0
+"vTAP w/o M, alpha, S_W",MLP,B_3,e,age,60.0
+"vTAP w/o M, alpha, S_W",RFF,A,a,expression,82.0
+"vTAP w/o M, alpha, S_W",RFF,A',b,held-out classes,63.0
+"vTAP w/o M, alpha, S_W",RFF,B_1,c,gender,72.0
+"vTAP w/o M, alpha, S_W",RFF,B_2,d,race,19.0
+"vTAP w/o M, alpha, S_W",RFF,B_3,e,age,56.0
+"vTAP w/o M, alpha, S_W",GBM,A,a,expression,93.0
+"vTAP w/o M, alpha, S_W",GBM,A',b,held-out classes,72.0
+"vTAP w/o M, alpha, S_W",GBM,B_1,c,gender,71.0
+"vTAP w/o M, alpha, S_W",GBM,B_2,d,race,18.0
+"vTAP w/o M, alpha, S_W",GBM,B_3,e,age,58.0
+"vTAP w/o M, alpha, S_W",kNN,A,a,expression,104.0
+"vTAP w/o M, alpha, S_W",kNN,A',b,held-out classes,69.0
+"vTAP w/o M, alpha, S_W",kNN,B_1,c,gender,73.0
+"vTAP w/o M, alpha, S_W",kNN,B_2,d,race,7.0
+"vTAP w/o M, alpha, S_W",kNN,B_3,e,age,43.0

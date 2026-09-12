@@ -1,0 +1,27 @@
+panel,assigned_task,measured,retention_pct
+a,Expr.,Expr.,105.0
+a,Expr.,Gend.,20.0
+a,Expr.,Race,9.0
+a,Expr.,Age,25.0
+a,Gender,Expr.,12.0
+a,Gender,Gend.,100.0
+a,Gender,Race,12.0
+a,Gender,Age,27.0
+a,Race,Expr.,6.0
+a,Race,Gend.,10.0
+a,Race,Race,101.0
+a,Race,Age,15.0
+a,Age,Expr.,9.0
+a,Age,Gend.,21.0
+a,Age,Race,18.0
+a,Age,Age,105.0
+b,CLIP ViT-L/14,A,105.0
+b,CLIP ViT-L/14,A',71.0
+b,CLIP ViT-L/14,B_1,20.0
+b,CLIP ViT-L/14,B_2,9.0
+b,CLIP ViT-L/14,B_3,25.0
+b,DINOv2 ViT-L/14,A,100.0
+b,DINOv2 ViT-L/14,A',45.0
+b,DINOv2 ViT-L/14,B_1,19.0
+b,DINOv2 ViT-L/14,B_2,13.0
+b,DINOv2 ViT-L/14,B_3,28.0

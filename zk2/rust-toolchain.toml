@@ -1,0 +1,4 @@
+# halo2-base 0.5.5 requires rustc 1.91.1 or newer. No nightly feature is
+# used, so stable 1.91+ works as well.
+[toolchain]
+channel = "nightly"

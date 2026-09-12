@@ -1,0 +1,49 @@
+panel,quantity,unit,sweep,d,r,groth16,halo2,halo2_srs,halo2_keygen
+a,setup time,s,d,384,4,43.1,1.27,0.62,0.65
+a,setup time,s,d,512,4,55.79,2.14,1.24,0.9
+a,setup time,s,d,768,4,83.79,2.39,1.24,1.15
+a,setup time,s,d,1024,4,97.24,4.99,3.06,1.93
+b,proving time,s,d,384,4,2.25,1.04,,
+b,proving time,s,d,512,4,2.79,2.02,,
+b,proving time,s,d,768,4,4.2,2.49,,
+b,proving time,s,d,1024,4,4.67,4.85,,
+c,verification time,ms,d,384,4,8.69,4.4,,
+c,verification time,ms,d,512,4,9.61,5.04,,
+c,verification time,ms,d,768,4,11.86,6.29,,
+c,verification time,ms,d,1024,4,13.83,7.16,,
+d,proving key size,MB,d,384,4,38.17,38.28,,
+d,proving key size,MB,d,512,4,49.77,76.55,,
+d,proving key size,MB,d,768,4,76.24,76.55,,
+d,proving key size,MB,d,1024,4,98.53,153.09,,
+e,verification key size,KB,d,384,4,73.2,2.25,,
+e,verification key size,KB,d,512,4,96.64,2.25,,
+e,verification key size,KB,d,768,4,143.5,2.25,,
+e,verification key size,KB,d,1024,4,190.28,2.25,,
+f,proof size,B,d,384,4,128.0,3328.0,,
+f,proof size,B,d,512,4,128.0,3328.0,,
+f,proof size,B,d,768,4,128.0,3328.0,,
+f,proof size,B,d,1024,4,128.0,3328.0,,
+g,setup time,s,r,768,2,82.48,2.68,1.55,1.13
+g,setup time,s,r,768,4,83.79,2.39,1.24,1.15
+g,setup time,s,r,768,8,83.72,2.72,1.53,1.19
+g,setup time,s,r,768,16,86.1,2.84,1.52,1.32
+h,proving time,s,r,768,2,3.98,2.44,,
+h,proving time,s,r,768,4,4.2,2.49,,
+h,proving time,s,r,768,8,3.9,2.48,,
+h,proving time,s,r,768,16,4.08,2.5,,
+i,verification time,ms,r,768,2,11.53,6.25,,
+i,verification time,ms,r,768,4,11.86,6.29,,
+i,verification time,ms,r,768,8,12.72,6.34,,
+i,verification time,ms,r,768,16,14.03,6.37,,
+j,proving key size,MB,r,768,2,75.92,76.55,,
+j,proving key size,MB,r,768,4,76.24,76.55,,
+j,proving key size,MB,r,768,8,76.89,76.55,,
+j,proving key size,MB,r,768,16,78.6,76.55,,
+k,verification key size,KB,r,768,2,143.44,2.25,,
+k,verification key size,KB,r,768,4,143.5,2.25,,
+k,verification key size,KB,r,768,8,143.5,2.25,,
+k,verification key size,KB,r,768,16,143.43,2.25,,
+l,proof size,B,r,768,2,128.0,3328.0,,
+l,proof size,B,r,768,4,128.0,3328.0,,
+l,proof size,B,r,768,8,128.0,3328.0,,
+l,proof size,B,r,768,16,128.0,3328.0,,

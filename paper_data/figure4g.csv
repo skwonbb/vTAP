@@ -1,0 +1,5 @@
+item,task_retention_pct,leakage_pct
+vTAP,87.88,17.95
+VIB frontier at vTAP leakage,67.97,17.95
+ADV frontier at vTAP leakage,70.83,17.95
+vTAP advantage over best (pp),17.06,

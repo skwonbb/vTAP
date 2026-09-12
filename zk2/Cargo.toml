@@ -1,0 +1,27 @@
+# halo2-base (Axiom halo2-lib) provides a lookup-based RangeChip, so the
+# range checks do not have to be written from scratch. The commitment is
+# not built on top of it: Poseidon needs its MDS constants as gate
+# coefficients, which the standard gate cannot express, so it uses a
+# custom-gate chip.
+[package]
+name = "tap-halo2"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+name = "tap_halo2"
+path = "src/lib.rs"
+
+[[bin]]
+name = "tap_halo2"
+path = "src/bin/tap_halo2.rs"
+
+[dependencies]
+halo2-base = "0.5.5"
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+rand = "0.8"
+
+[profile.release]
+opt-level = 3
+debug = false

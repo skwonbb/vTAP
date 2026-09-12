@@ -1,0 +1,5 @@
+quantity,factored,direct,ratio
+rescalings,772.0,768.0,1.005
+constant multiplications,6144.0,589824.0,96.0
+quantization error (rel. L2),3.202478469132892e-05,0.0001422616866349,4.4
+published parameters (entries),6912.0,590592.0,85.4

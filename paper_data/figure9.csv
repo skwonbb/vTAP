@@ -1,0 +1,17 @@
+panel,unit,sweep,d,r,tap,commitment,total,tap_share_pct
+a,R1CS constraints,d,384,4,18624,15831,34455,54.1
+b,PLONKish advice cells,d,384,4,30149,49604,79753,37.8
+a,R1CS constraints,d,512,4,24768,21312,46080,53.8
+b,PLONKish advice cells,d,512,4,40133,66052,106185,37.8
+a,R1CS constraints,d,768,4,37056,31665,68721,53.9
+b,PLONKish advice cells,d,768,4,60101,98948,159049,37.8
+a,R1CS constraints,d,1024,4,49344,42018,91362,54.0
+b,PLONKish advice cells,d,1024,4,80069,131844,211913,37.8
+a,R1CS constraints,r,768,2,36960,31665,68625,53.9
+b,PLONKish advice cells,r,768,2,50787,98948,149735,33.9
+a,R1CS constraints,r,768,4,37056,31665,68721,53.9
+b,PLONKish advice cells,r,768,4,60101,98948,159049,37.8
+a,R1CS constraints,r,768,8,37248,31665,68913,54.1
+b,PLONKish advice cells,r,768,8,78729,98948,177677,44.3
+a,R1CS constraints,r,768,16,38416,31665,70081,54.8
+b,PLONKish advice cells,r,768,16,115985,98948,214933,54.0
