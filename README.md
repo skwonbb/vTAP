@@ -28,8 +28,6 @@ Figure files are not committed; the scripts below regenerate them from
 
 ## Reproducing the figures and tables
 
-No dataset and no GPU are needed — `results/` is sufficient.
-
 ```bash
 pip install numpy pandas scipy matplotlib
 
@@ -51,14 +49,10 @@ python src/paper_data.py        # every figure and table value -> paper_data/
 ```
 
 Figures are written to `results/figures/`, numbered as in the paper.
-Figures 1 and 3 of the paper are drawn in LaTeX and are not produced here.
 
 On Windows, set `PYTHONIOENCODING=utf-8` if the console rejects the output.
 
 ## paper_data/
-
-One file per figure and per data table, so that a value can be checked
-without running anything.
 
 | file | contents |
 |---|---|
@@ -76,12 +70,10 @@ without running anything.
 | `table7.csv` | accuracy under fixed-point arithmetic at $f=16$ |
 | `table8.csv` | a receiver trained on raw $U$, given $\hat U_f$ |
 
-`paper_data.py` imports the figure scripts rather than recomputing, so the
-exported numbers are the ones actually drawn.
 
 ## Re-running the experiments
 
-Building `results/` from scratch needs the dataset and the embeddings.
+Building `results/` needs the dataset and the embeddings.
 
 1. Obtain **RAF-DB** and place it under `data/` (not redistributable here).
 2. `src/03_build_rafdb_labels.py`, then `src/05_embed_rafdb.py`
@@ -104,7 +96,7 @@ removal, LEACE, PCA, random projection).
 
 ## Verifying the deployed map
 
-Checkable on the published matrices alone — no data, no training history:
+Checkable on the published matrices:
 
 ```python
 import numpy as np
